@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+  
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #c4f871, #81e0fa);
+  font-family: 'Fredoka One', cursive;
+  color: rgb(7, 0, 0);
+}
+  
+.todo-item, .input-form {
+  display: flex;
+  justify-content: space-between;
+}
+  
+.input-form input {
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+  
+.todo-item {
+  margin: 10px 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px;
+  width: fit-content;
+  color: #f2f2f2;
+  transition: 1s;
+  outline: none;
+  background-color: #0e0558;
+  border: 1px solid lightgray;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
